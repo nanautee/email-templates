@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitamin Shoppe - Специальные предложения</title>
+
+    <!-- Поддержка темной темы -->
+    <style>
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        /* Стили для темной темы */
+        @media (prefers-color-scheme: dark) {
+            .lightkBanner { display: none !important; }
+            .darkBannerWrapper, .darkBanner { display: block !important; }
+            .darkBG { background-color: #012169 !important; }
+        }
+
+        /* Базовые стили */
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            -webkit-text-size-adjust: 100% !important;
+            -ms-text-size-adjust: 100% !important;
+            -webkit-font-smoothing: antialiased !important;
+        }
+
+        /* Сброс стилей */
+        img {
+            border: 0 !important;
+            outline: none !important;
+            display: block !important;
+        }
+
+        p {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        /* Стили таблиц */
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0px;
+            mso-table-rspace: 0px;
+        }
+
+        td, a, span {
+            border-collapse: collapse;
+            mso-line-height-rule: exactly;
+        }
+
+        /* Специфичные стили для почтовых клиентов */
+        .ExternalClass * { line-height: 100%; }
+        .em_defaultlink a {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        /* Специфичные стили для Outlook */
+        span.MsoHyperlink,
+        span.MsoHyperlinkFollowed {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        /* Фикс для Gmail */
+        .gmailfix {
+            display: none;
+            display: none !important;
+        }
+
+        /* Адаптивные стили */
+        @media only screen and (min-width:481px) and (max-width:600px) {
+            .em_main_table, .em_wrapper { width: 100% !important; }
+            .em_spacer { width: 11px !important; }
+            .em_hide { display: none !important; }
+            .em_full_img {
+                width: 100% !important;
+                height: auto !important;
+            }
+        }
+
+        @media only screen and (max-width:480px) {
+            /* Мобильные стили */
+            .em_main_table, .em_wrapper { width: 100% !important; }
+            .em_text1 { 
+                font-size: 12px !important; 
+                line-height: 15px !important; 
+                letter-spacing: -.09em !important; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Предпросмотр письма (скрытый) -->
+    <span class="preheader" style="color: #f3f3f3; display: none!important; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; mso-hide: all!important; opacity: 0; overflow: hidden; visibility: hidden;">
+        Скидки до 50% + дополнительные 20% + специальное предложение дня
+    </span>
+
+    <!-- Контейнер письма -->
+    <div style="max-width: 600px; margin: 0 auto;">
+        <!-- Основные секции -->
+        <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#F5F5F5">
+            <tr>
+                <td align="center">
+                    <!-- Секция шапки -->
+                    <!-- ...существующий код шапки... -->
+
+                    <!-- Секция основных предложений -->
+                    <!-- ...существующий код предложений... -->
+
+                    <!-- Сетка товаров -->
+                    <!-- ...существующий код товаров... -->
+
+                    <!-- Подвал -->
+                    <!-- ...существующий код подвала... -->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Фиксы для почтовых клиентов -->
+    <div class="gmailfix" style="white-space: nowrap; font: 15px courier; line-height: 0;">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitamin Shoppe Email</title>
+
+    <!-- Dark Mode Support -->
+    <style>
+        :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
+        }
+
+        /* Dark Mode Styles */
+        @media (prefers-color-scheme: dark) {
+            .lightkBanner { display: none !important; }
+            .darkBannerWrapper, .darkBanner { display: block !important; }
+            .darkBG { background-color: #012169 !important; }
+        }
+
+        /* Base Styles */
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            -webkit-text-size-adjust: 100% !important;
+            -ms-text-size-adjust: 100% !important;
+            -webkit-font-smoothing: antialiased !important;
+        }
+
+        /* Reset Styles */
+        img {
+            border: 0 !important;
+            outline: none !important;
+            display: block !important;
+        }
+
+        p {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        /* Table Styles */
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0px;
+            mso-table-rspace: 0px;
+        }
+
+        td, a, span {
+            border-collapse: collapse;
+            mso-line-height-rule: exactly;
+        }
+
+        /* Email Client Specific */
+        .ExternalClass * { line-height: 100%; }
+        .em_defaultlink a {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+        
+        /* Microsoft Outlook Specific */
+        span.MsoHyperlink,
+        span.MsoHyperlinkFollowed {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        /* Gmail Fix */
+        .gmailfix {
+            display: none;
+            display: none !important;
+        }
+
+        /* Responsive Styles */
+        @media only screen and (min-width:481px) and (max-width:600px) {
+            .em_main_table, .em_wrapper { width: 100% !important; }
+            .em_spacer { width: 11px !important; }
+            .em_hide { display: none !important; }
+            .em_full_img {
+                width: 100% !important;
+                height: auto !important;
+            }
+            /* More responsive styles... */
+        }
+
+        @media only screen and (max-width:480px) {
+            /* Mobile specific styles */
+            .em_main_table, .em_wrapper { width: 100% !important; }
+            .em_text1 { 
+                font-size: 12px !important; 
+                line-height: 15px !important; 
+                letter-spacing: -.09em !important; 
+            }
+            /* More mobile styles... */
+        }
+    </style>
+</head>
+<body>
+    <!-- Preheader Text (Hidden) -->
+    <span class="preheader" style="color: #f3f3f3; display: none!important; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; mso-hide: all!important; opacity: 0; overflow: hidden; visibility: hidden;">
+        Up to 50% off + 20% off + today's deal
+    </span>
+
+    <!-- Email Content Container -->
+    <div style="max-width: 600px; margin: 0 auto;">
+        <!-- Main Content Sections -->
+        <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#F5F5F5">
+            <tr>
+                <td align="center">
+                    <!-- Header Section -->
+                    <!-- ...existing header code... -->
+
+                    <!-- Main Offer Section -->
+                    <!-- ...existing offer code... -->
+
+                    <!-- Product Grid Section -->
+                    <!-- ...existing product grid code... -->
+
+                    <!-- Footer Section -->
+                    <!-- ...existing footer code... -->
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Email Client Fixes -->
+    <div class="gmailfix" style="white-space: nowrap; font: 15px courier; line-height: 0;">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </div>
+</body>
+</html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitamin Shoppe Email</title>
+</head>
+<body>
+    <div>
+        <div></div>
+      </div>
+      <style>:root {
+          color-scheme: light dark;
+          supported-color-schemes: light dark;
+      }
+            @media (prefers-color-scheme: dark) {
+            .lightkBanner {
+                display: none !important;
+            }
+            .darkBannerWrapper, .darkBanner {
+                display: block !important;
+            }
+            .darkBG {
+                background-color: #012169 !important;
+            }
+            }
+            body {
+              margin: 0 !important;
+              padding: 0 !important;
+              -webkit-text-size-adjust: 100% !important;
+              -ms-text-size-adjust: 100% !important;
+              -webkit-font-smoothing: antialiased !important;
+            }
+            img {
+              border: 0 !important;
+              outline: none !important;
+              display: block !important;
+            }
+            p {
+              margin: 0px !important;
+              padding: 0px !important;
+            }
+            table {
+              border-collapse: collapse;
+              mso-table-lspace: 0px;
+              mso-table-rspace: 0px;
+            }
+            td,
+            a,
+            span {
+              border-collapse: collapse;
+              mso-line-height-rule: exactly;
+            }
+            .ExternalClass * {
+              line-height: 100%;
+            }
+            .em_defaultlink a {
+              color: inherit !important;
+              text-decoration: none !important;
+            }
+            span.MsoHyperlink {
+              mso-style-priority: 99;
+              color: inherit;
+            }
+            span.MsoHyperlinkFollowed {
+              mso-style-priority: 99;
+              color: inherit;
+            }
+            .gmailfix {
+              display: none;
+              display: none !important;
+            }
+                  /*Stylesheet for the devices width between 481px to 600px*/
+                  @media only screen and (min-width:481px) and (max-width:600px) {
+      .em_main_table {
+                width: 100% !important;
+              }
+              .em_wrapper {
+                width: 100% !important;
+              }
+              .em_spacer {
+                width: 11px !important;
+              }
+              .em_hide {
+                display: none !important;
+              }
+              .em_full_img {
+                width: 100% !important;
+                height: auto !important;
+              }
+              .em_height {
+                height: 20px !important;
+              }
+              .em_side {
+                width: 10px !important;
+              }
+              .em_sides {
+                width: 10% !important;
+              }
+              .em_pad {
+                padding-top: 15px !important;
+              }
+              .em_aside {
+                padding: 0px 10px;
+              }
+              .em_center {
+                text-align: center !important;
+              }
+              .em_auto {
+                height: auto !important;
+                background-repeat: no-repeat !important;
+                background-position: center top !important;
+                background-size: cover !important;
+              }
+              .disclaimer {
+                font-size: 10px !important;
+                line-height: 14px !important;
+              }
+                  }
+                  /*Stylesheet for the devices width between 0px to 480px*/
+                  @media only screen and (max-width:480px) {
+      .em_main_table {
+                width: 100% !important;
+              }
+              .em_wrapper {
+                width: 100% !important;
+              }
+              .em_spacer {
+                width: 11px !important;
+              }
+              .em_hide {
+                display: none !important;
+              }
+              .disclaimer {
+                  font-size: 10px !important;
+                  line-height: 14px !important;
+              }
+              .em_full_img {
+                width: 100% !important;
+                height: auto !important;
+                max-width: 100% !important;
+              }
+              .em_height {
+                height: 20px !important;
+              }
+              .em_aside {
+                padding: 0px 10px;
+              }
+              .em_side {
+                width: 10px !important;
+              }
+              .em_sides {
+                width: 10% !important;
+              }
+              .em_pad {
+                padding-top: 15px !important;
+              }
+              .em_auto {
+                height: auto !important;
+                background-repeat: no-repeat !important;
+                background-position: center top !important;
+                background-size: cover !important;
+              }
+              .disclaimer {
+                font-size: 10px !important;
+                line-height: 14px !important;
+              }
+      .em_text1 { font-size: 12px !important; line-height: 15px !important; letter-spacing: -.09em !important; }
+      .em_text2 { font-size: 29px !important; line-height: 33px !important; }
+      .em_text3 { font-size: 23px !important; line-height: 26px !important; padding: 0px 10px !important; }
+      .em_text4 { font-size: 24px !important; line-height: 27px !important; padding: 0px 10px !important; }
+      .em_text5 { font-size: 13px !important; line-height: 18px !important; }
+                  }</style>
+      <div><!-- [if gte mso 9]>
+      <xml>
+      <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]--> 
+        <span class="preheader" style="color: #f3f3f3; display: none!important; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; mso-hide: all!important; opacity: 0; overflow: hidden; visibility: hidden;">
+          <span class="" style="">Up to 50% off + 20% off + today's deal</span>
+        </span> <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
+        <div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&

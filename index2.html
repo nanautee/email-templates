@@ -1,0 +1,182 @@
+ <!--
+    Original design inspiration: Tiffany & Co Email Template
+    This is a learning implementation created for educational purposes only
+    Author of implementation: [Your Name]
+    Original design belongs to Tiffany & Co
+    Not for commercial use
+    -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Фиксы для почтовых клиентов -->
+    <style type="text/css">
+      ReadMsgBody{ width: 100%;}
+      .ExternalClass {width: 100%;}
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+      body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;margin:0 !important;}
+      p { margin: 1em 0;}
+      table td { border-collapse: collapse;}
+      img {outline:0;}
+      a img {border:none;}
+      @-ms-viewport{ width: device-width;}
+    </style>
+
+    <!-- Адаптивные стили -->
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        /* Мобильные стили */
+        .container {width: 100% !important;}
+        .footer { width:auto !important; margin-left:0; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        
+        /* Изображения */
+        img { max-width:100% !important; height:auto !important; }
+        .header img{max-width:100% !important;height:auto !important;}
+        .photo img { width:100% !important; max-width:100% !important; height:auto !important;}
+        
+        /* Блоки и таблицы */
+        .drop { display:block !important; width: 100% !important; float:left; clear:both;}
+        .footerlogo { display:block !important; width: 100% !important; padding-top:15px; float:left; clear:both;}
+        .nav4, .nav5, .nav6 { display: none !important; }
+        .tableBlock {width:100% !important;}
+        .responsive-td {width:100% !important; display:block !important; padding:0 !important; }
+        
+        /* Флюидные элементы */
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        
+        /* Типографика */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        
+        /* Кнопки */
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+      }
+
+ 
+
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body { padding: 0px !important; font-size: 16px !important; line-height: 150% !important;}
+        h1 { font-size: 22px !important; line-height: normal !important;}
+        h2 { font-size: 20px !important; line-height: normal !important;}
+        h3 { font-size: 18px !important; line-height: normal !important;}
+        .buttonstyles {
+          font-family:arial,helvetica,sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container { width:100% !important; }
+        .mobile-hidden { display:none !important; }
+        .logo { display:block !important; padding:0 !important; }
+        .photo img { width:100% !important; height:auto !important;}
+        .nav5, .nav6 { display: none !important;}
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]>
+      <style type="text/css">
+          /* Begin Outlook Font Fix */
+          body, table, td {
+              font-family: Arial, Helvetica, sans-serif ;
+              font-size:16px;
+              color:#181818;
+              line-height:1;
+          }
+          /* End Outlook Font Fix */
+      </style>
+    <![endif]-->
+  </head>
+  <body bgcolor="#efefef" text="#181818" style="background-color: #efefef; color: #181818; margin: 0px; padding: 20px; -webkit-text-size-adjust:none; line-height: normal; font-size: 16px; font-family:arial,helvetica,sans-serif;">
+   
+    <div style="font-size:0; line-height:0;"><custom name="opencounter" type="tracking"><custom name="usermatch" type="tracking" /></div>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" valign="top">
+          <custom type="header" />
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+            <tr>
+              <td>
+                <table class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#ffffff" width="100%">
+                  <tr>
+                    <td align="center" valign="top">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                          <td class="content_padding" style="padding:10px;border:0px;">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td align="left" class="header" valign="top" role="banner" aria-label="header">
+                                  <table role="presentation" style="border-bottom: 1px solid #AEAEAE; min-width: 100%; " class="slot-styling" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-bottom: 20px; " class="slot-styling camarker-inner"><table role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 10px; " class="stylingblock-content-wrapper camarker-inner" align="center"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr><td align="center"><img data-assetid="221579" src="https://image.s8.sfmc-content.com/lib/fe2d117172640575771274/m/1/902bb069-f9eb-4643-a2a5-78bd6e54e2a6.png" alt="Placeholder image" style="display: block; height: 26px; width: 200px; text-align: center; padding: 0px;" width="200" height="26"></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top" role="article" aria-label="article">
+                                  <table role="presentation" style="border-bottom: 1px solid #AEAEAE; min-width: 100%; " class="slot-styling" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 10px; padding-bottom: 10px; " class="slot-styling camarker-inner"><table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><table style="width: 100%;" cellspacing="0" cellpadding="0"><tr><td><table style="width: 100%;" cellspacing="0" cellpadding="0"><tr><td class="responsive-td" style="width: 100%;" valign="top"><table role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table role="presentation" width="100%" cellspacing="0" cellpadding="0"><tr><td align="center"><img data-assetid="221645" src="https://image.s8.sfmc-content.com/lib/fe2d117172640575771274/m/1/e705cd32-92f6-4ca8-9193-adc963581012.png" alt="Placeholder image" style="display: block; height: auto; width: 100%; padding: 0px; text-align: center;" width="100%"></td></tr></table></td></tr></table><table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 15px; " class="stylingblock-content-wrapper camarker-inner"><h1 style="text-align: center; font-family : Arial,helvetica,sans-serif; font-size : 28px; color : #181818; line-height : 1; font-weight : bold; font-style : normal; ">
+ Dad'<span style="font-family:Arial,Helvetica,sans-serif;">s</span> Favorite Things</h1><div>
+ <span style="font-family:Arial,Helvetica,sans-serif;">It's almost time to celebrate dad.Order your gifts now to ensure they arrive in time to delight him on Fathers Day.</span></div></td></tr></table><table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 20px; padding-bottom: 20px; " class="stylingblock-content-wrapper camarker-inner"><table role="presentation" width="100%" cellspacing="0" cellpadding="5" border="0"><tr><td align="center"><table role="presentation" cellspacing="0" cellpadding="0" border="0"><tr><td class="innertd buttonblock" style=" border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; background-color: #81D8D0;" bgcolor="#81D8D0" align="center"><a target="_blank" style=" text-decoration: none; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-align: center; background-color: #81D8D0; border: 1px solid #81D8D0; padding: 10px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;" class="buttonstyles" href="https://www.tiffany.com/" title="Tiffany &amp; Co " alias="" conversion="false" data-linkto="https://">Shop Gifts for Him</a></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top">
+                                  <table role="presentation" style="border-bottom: 1px solid #AEAEAE; min-width: 100%; " class="slot-styling" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 10px; padding-bottom: 10px; " class="slot-styling camarker-inner"><table role="presentation" style="text-align: left; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner" align="left"><table class="socialshare-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr> <td><table cellspacing="0" cellpadding="0" align="center"><tr><td align="center"><!--[if mso]><table border="0" cellspacing="0" cellpadding="0"><tr><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="facebook follow"><img src="https://image.exct.net/lib/fe5f15707267027a7712/m/1/socialshare-facebook-grey-2x.png" alt="Facebook" style="display: block;; width: 24px !important; height: 24px !important" width="24" height="24"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="twitter follow"><img src="https://image.exct.net/lib/fe5f15707267027a7712/m/1/socialshare-twitter-grey-2x.png" alt="Twitter" style="display: block;; width: 24px !important; height: 24px !important" width="24" height="24"></a></td></tr></table><!--[if mso]></td><td style="padding-right:10px;"><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="pinterest follow"><img src="https://image.exct.net/lib/fe5f15707267027a7712/m/1/socialshare-pinterest-grey-2x.png" alt="Pinterest" style="display: block;; width: 24px !important; height: 24px !important" width="24" height="24"></a></td></tr></table><!--[if mso]></td><td><![endif]--><table class="socialshare-innertable" style="display: inline-block"><tr><td style="padding:5px 10px"><a href="" alias="instagram follow"><img src="https://image.exct.net/lib/fe5f15707267027a7712/m/1/socialshare-instagram-grey-2x.png" alt="Instagram" style="display: block;; width: 24px !important; height: 24px !important" width="24" height="24"></a></td></tr></table><!--[if mso]></td></tr></table><![endif]--></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="left" class="" valign="top" role="contentinfo" aria-label="footer">
+                                  <table role="presentation" style="min-width: 100%; " class="slot-styling" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 20px; " class="slot-styling camarker-inner"><table role="presentation" style="text-align: center; min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td class="stylingblock-content-wrapper camarker-inner" align="center"><div style="text-align: center;">
+ <a alias="LINK   |" conversion="false" data-linkto="http://" href="http://o%20ensure%20delivery%20to%20your%20inbox%20(not%20bulk%20or%20junk%20folders),%20please%20add%20Tiffany@tco.Tiffany.com%20to%20your%20address%20book.%20Please%20do%20not%20reply%20to%20this%20message.%20If%20you%20have%20any%20questions,%20please%20contact%20us%20via%20email%20at%20CustomerService@Tiffany.com%20or%20call%20us%20at%20800%20843%203269.%20Tiffany%20&%20Co.%20727%20Fifth%20Avenue,%20New%20York,%20NY%2010022.%20%C2%A92023%20Tiffany%20and%20Company.%20This%20email%20was%20sent%20to%20reneonlineg1@gmail.com.%20To%20unsubscribe,%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20click%20here.%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Tiffany%20&%20Co.%20is%20a%20registered%20trademark%20of%20%0ATiffany%20and%20Company.%20Facebook%20and%20Instagram%20are%20registered%20trademarks%20of%0A%20Facebook%20Inc.%20and%20Instagram%20Inc.,%20respectively.%20YouTube%20is%20a%20registered%0A%20trademark%20of%20Google%C2%A0Inc." style="color:#0C0C0C;text-decoration:none;" title="LINK   |">CUSTOMER SERVICE |</a>&nbsp;&nbsp;<a alias="" conversion="false" data-linkto="https://" href="https://www.tiffany.com/faq/?omcid=eml-US_GLBL%7CGiftingMomentsFathersDay_OtherMomentsShipping_2023_JUN_14_Fathers_Day_Email_3&ecmid=40856996&mi_u=40856996&mi_ecmp=0" style="color:#181818;text-decoration:none;" title="">PRIVACY POLICY</a>&nbsp;&nbsp; |&nbsp;&nbsp;<a alias="" conversion="false" data-linkto="https://" href="https://www.tiffany.com/faq/?omcid=eml-US_GLBL%7CGiftingMomentsFathersDay_OtherMomentsShipping_2023_JUN_14_Fathers_Day_Email_3&ecmid=40856996&mi_u=40856996&mi_ecmp=0" style="color:#181818;text-decoration:none;" title="">UNSUBSCRIBE</a></div></td></tr></table><table role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper" width="100%" cellspacing="0" cellpadding="0"><tr><td style="padding-top: 10px; padding-right: 10px; padding-left: 10px; " class="stylingblock-content-wrapper camarker-inner"><span style="font-size:10px;"><span style="font-family:Courier New,Courier,monospace;">To ensure delivery to your inbox (not bulk or junk folders), please add <a href="mailto:Tiffany@tco.Tiffany.com" target="_blank">Tiffany@tco.Tiffany.com</a> to your address book. Please do not reply to this message. If you have any questions, please contact us via email at <a href="mailto:CustomerService@Tiffany.com" target="_blank">CustomerService@Tiffany.com</a> or call us at <a href="tel:8008433269" target="_blank">800 843 3269</a>. Tiffany &amp; Co. 727 Fifth Avenue, New York, NY 10022. &copy;2023 Tiffany and Company. This email was sent to <a href="mailto:reneonlineg1@gmail.com" target="_blank">reneonlineg1@gmail.com</a>. To unsubscribe, <a data-saferedirecturl="https://www.google.com/url?q=https://t.tco.tiffany.com/r/?id%3Dhebcc4a61,446b3a82,475caa9c%26e%3DZWNtaWQ9NDA4NTY5OTYmbWlfdT00MDg1Njk5NiZtaV9lY21wPTAmcDE9JTQwWlhlVXNBVkZyTk1tMUZEdlFBZ2taUSUzRCUzRA%26s%3Ds9hTNZ3cwsQVISyM28QizkgpbQYE8nAZLHD7mZPftZY&amp;source=gmail&amp;ust=1687160738657000&amp;usg=AOvVaw3CLPMMKPmU2BrkpEA813O6" href="https://t.tco.tiffany.com/r/?id=hebcc4a61,446b3a82,475caa9c&e=ZWNtaWQ9NDA4NTY5OTYmbWlfdT00MDg1Njk5NiZtaV9lY21wPTAmcDE9JTQwWlhlVXNBVkZyTk1tMUZEdlFBZ2taUSUzRCUzRA&s=s9hTNZ3cwsQVISyM28QizkgpbQYE8nAZLHD7mZPftZY" target="_blank">click here</a>. Tiffany &amp; Co. is a registered trademark of Tiffany and Company. Facebook and Instagram are registered trademarks of Facebook Inc. and Instagram Inc., respectively. YouTube is a registered trademark of Google&nbsp;Inc. </span></span></td></tr></table></td></tr></table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <custom type="footer" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

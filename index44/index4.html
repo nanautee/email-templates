@@ -1,0 +1,252 @@
+<!--
+Original design inspiration: Lids Email Template
+This is a learning implementation created for educational purposes only
+Author of implementation: [Your Name]
+Original design belongs to Lids
+Created: April 2024
+Not for commercial use
+
+References:
+- Original template by Lids (www.lids.com)
+- Used for educational purposes to learn email development
+- All product images, logos and trademarks belong to their respective owners
+-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Стили -->
+    <style>
+      /* Импорт шрифта Google */
+      @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+      /* Базовые стили типографики */
+      @media only screen {
+        .column, th, td, div, p {
+          font-family: 'Lato', Helvetica, Arial, sans-serif !important;
+        }
+      }
+
+      /* Сброс стилей и базовые настройки */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Базовые элементы */
+      a { text-decoration: none; }
+      table { border-collapse: collapse; }
+      img {
+        border: 0;
+        line-height: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+      }
+
+      /* Типографика и текстовые элементы */
+      .column, td, th, div, p {
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        line-height: 23px;
+        word-break: break-word;
+      }
+
+      /* Компоненты макета */
+      .wrapper { min-width: 700px; }
+      .row {
+        margin: 0 auto;
+        width: 700px;
+      }
+      .row .row, th .row { width: 100%; }
+
+      /* Интерактивные элементы */
+      .menu-item { display: inline-block; }
+      .hover-shrink:hover { transform: scale(0.7); }
+      .spacer, .divider {
+        overflow: hidden;
+        mso-line-height-rule: exactly;
+      }
+
+      /* Медиа-компоненты */
+      .video {
+        display: block !important;
+        height: auto;
+        object-fit: cover;
+      }
+
+      /* Адаптивные стили */
+      @media only screen and (max-width: 699px) {
+        /* Мобильный макет */
+        .wrapper { min-width: 100% !important; }
+        .row { width: 90% !important; }
+        
+        /* Мобильные колонки */
+        .column {
+          box-sizing: border-box;
+          display: inline-block !important;
+          width: 100% !important;
+        }
+        
+        /* Мобильные утилиты */
+        .mobile-center {
+          display: table !important;
+          margin: 0 auto !important;
+        }
+        .hide-on-mobile { display: none !important; }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; width: 100%;">
+
+    <table class="wrapper" align="center" bgcolor="#EEEEEE" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td style="padding: 30px 0;">
+
+        <table class="row" align="center" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="spacer" height="80" style="line-height: 80px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <th class="column has-columns" width="640" style="padding-left: 30px; padding-right: 30px;">
+
+              <div style="color: #232323; font-size: 28px;"><a href="https://www.lids.com/" target="_blank"><img src="images/lids-logo.jpg" alt=""></a></div>
+
+              <div style="color: #232323; font-size: 28px;"><a href="https://www.lids.com/nfl-division-champions-merchandise/o-8027+c-8911666518+z-866-1937706282?ab={wt-static_graphic}{pt-olp}{al-aspot}{ct-nfl_division}{aid-120919}" target="_blank"><img src="images/playoff-merch.jpg" alt=""></a></div>
+
+              <div class="spacer" style="line-height: 80px;">&nbsp;</div>
+
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th class="column mobile-padding-bottom" width="310" style="padding-right: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-san-francisco-49ers/san-francisco-49ers-nfl-pro-line-by-fanatics-branded-2019-nfc-west-division-champions-cover-two-t-shirt-scarlet/o-1383+t-69262618+p-14744086057+z-9-2172296445?_ref=p-CLP:m-GRID:i-r0c0:po-0" target="_blank">
+                        <img src="images/49ers-1.jpg" alt="Product 1" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">San Francisco 49ers NFL Pro Line by Fanatics Branded 2019 NFC West Division Champions Cover Two T-Shirt – Scarlet</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                  <th class="column" width="310" style="padding-left: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-green-bay-packers/green-bay-packers-nfl-pro-line-by-fanatics-branded-2019-nfc-north-division-champions-cover-two-t-shirt-green/o-2461+t-69376876+p-8129620538+z-8-1157012646?_ref=p-CLP:m-GRID:i-r0c2:po-2" target="_blank">
+                        <img src="images/packers-1.jpg" alt="Product 2" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">Green Bay Packers NFL Pro Line by Fanatics Branded 2019 NFC North Division Champions Cover Two T-Shirt - Green</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                </tr>
+              </table>
+
+              <div class="spacer" style="line-height: 30px;">&nbsp;</div>
+
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th class="column mobile-padding-bottom" width="310" style="padding-right: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-baltimore-ravens/baltimore-ravens-nfl-pro-line-by-fanatics-branded-2019-afc-north-division-champions-cover-two-t-shirt-black/o-2427+t-03159122+p-81961790015+z-9-1819911544?_ref=p-CLP:m-GRID:i-r2c0:po-6" target="_blank">
+                        <img src="images/ravens-1.jpg" alt="Product 3" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">Baltimore Ravens NFL Pro Line by Fanatics Branded 2019 AFC North Division Champions Cover Two T-Shirt - Black</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                  <th class="column" width="310" style="padding-left: 10px; font-weight: 400; text-align: left;">
+                    <div style="margin-bottom: 20px;">
+                      <a href="https://www.lids.com/nfl-houston-texans/houston-texans-nfl-pro-line-by-fanatics-branded-2019-afc-south-division-champions-cover-two-t-shirt-navy/o-4672+t-81269211+p-4730282659+z-8-1940101004?_ref=p-CLP:m-GRID:i-r2c2:po-8" target="_blank">
+                        <img src="images/texans-1.jpg" alt="Product 4" width="310" style="border: 0; width: 100%; max-width: 310px;">
+                      </a>
+                    </div>
+                    <a href="http://example.com" style="color: #232323; font-size: 16px; font-weight: 700; text-decoration: none;">Houston Texans NFL Pro Line by Fanatics Branded 2019 AFC South Division Champions Cover Two T-Shirt - Navy</a>
+                    <div style="color: #666666; font-size: 12px;">$27.99</div>
+                  </th>
+                </tr>
+              </table>
+
+            </th>
+          </tr>
+          <tr>
+            <td class="spacer" height="80" style="line-height: 80px;">&nbsp;</td>
+          </tr>
+        </table>
+
+        <table class="row" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <th class="column" width="640" bgcolor="#2F7ABD" style="padding: 30px;">
+              <table class="row" cellpadding="0" cellspacing="0">
+                <tr>
+                  <th class="column" width="580" style="padding: 30px; border: 1px solid #FFFFFF; color: #FFFFFF;">
+                    <div style="font-size: 16px; font-weight: 400;">ON U.S. ORDERS OVER $39<br>ENJOY</div>
+                    <div style="font-size: 80px; line-height: 100%; word-wrap: break-word;"><span style="font-size: 0.6em; vertical-align: text-top; mso-text-raise: 20px;"></span>FREE SHIPPING</div>
+                    <div class="spacer" style="line-height: 15px;">&nbsp;</div>
+                    <div style="font-size: 20px; letter-spacing: 2px; line-height: 100%;">PROMO CODE: DIVISION20</div>
+                    <div class="spacer" style="line-height: 30px;">&nbsp;</div>
+                    <table align="center" bgcolor="#232323" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                      <tr>
+                        <th>
+                          <a href="https://www.lids.com/nfl-division-champions-merchandise/o-8027+c-8911666518+z-866-1937706282?ab={wt-static_graphic}{pt-olp}{al-aspot}{ct-nfl_division}{aid-120919}" target="_blank" style="border: 0 solid #232323; color: #FFFFFF; display: inline-block; font-size: 14px; padding: 13px 40px 13px 40px; text-decoration: none;">SHOP NOW</a>
+                        </th>
+                      </tr>
+                    </table>
+                    <div class="spacer" style="line-height: 15px; height: 15px;">&nbsp;</div>
+                  </th>
+                </tr>
+              </table>
+            </th>
+          </tr>
+        </table>
+
+        <table class="row" align="center" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="spacer" height="80" style="line-height: 80px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <th class="column" width="640" style="padding-left: 30px; padding-right: 30px; color: #666666; font-weight: 400; line-height: 100%;">
+              <center style="margin-bottom: 30px;">
+                <a href="https://www.lids.com/" target="_blank">
+                  <img src="images/lids-logo.jpg" width="130" alt="Footer Logo" style="border: 0; display: inline-block; width: 100%; max-width: 130px;">
+                </a>
+              </center>
+              <div style="margin-bottom: 5px;">Please do not respond to this email address, this mailbox is not attended. You are receiving this email because you have opted in to receive communication from us.</div>
+              <div style="margin-bottom: 5px;">Email Created By: Brandon Waller</div>
+              <div style="margin-bottom: 20px;"><a href="#" style="color: #888888; text-decoration: none;">Terms &amp; Conditions</a> | <a href="#" style="color: #888888; text-decoration: none;">Unsubscribe</a></div>
+              <table align="center" cellpadding="10" cellspacing="0" style="margin: 0 auto;">
+                <tr>
+                  <td>
+                    <a href="https://www.facebook.com/Lids/" target="_blank" style="text-decoration: none;">
+                      <img src="images/facebook-dark.png" width="24" alt="Facebook" style="border: 0; width: 100%; max-width: 24px;">
+                    </a>
+                  </td>
+                  <td>
+                    <a href="https://twitter.com/lids?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" style="text-decoration: none;">
+                      <img src="images/twitter-dark.png" width="24" alt="Twitter" style="border: 0; width: 100%; max-width: 24px;">
+                    </a>
+                  </td>
+                  <td>
+                    <a href="https://www.instagram.com/lids/?hl=en" target="_blank" style="text-decoration: none;">
+                      <img src="images/instagram-dark.png" width="24" alt="Instagram" style="border: 0; width: 100%; max-width: 24px;">
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </th>
+          </tr>
+          <tr>
+            <td class="spacer" height="40" style="line-height: 40px;">&nbsp;</td>
+          </tr>
+        </table>
+
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
