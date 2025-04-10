@@ -5,7 +5,6 @@ This is an educational project created for learning HTML email development.
 ## Credits and Attributions
 
 These email templates are learning implementations inspired by:
-- Helmut Lang
 - Tiffany & Co
 - Vitamin Shoppe
 - Lids
@@ -13,7 +12,6 @@ These email templates are learning implementations inspired by:
 All original designs, logos, trademarks and product images belong to their respective owners.
 
 ## Templates included:
-1. Helmut Lang promotional email
 2. Tiffany & Co product showcase
 3. Vitamin Shoppe offers email
 4. Lids sports merchandise email
