@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <!-- Мета-теги и кодировка -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitamin Shoppe - Специальные предложения</title>
+    <title>Vitamin Shoppe Email</title>
 
-    <!-- Поддержка темной темы -->
     <style>
+        /* Настройки темной темы */
         :root {
             color-scheme: light dark;
             supported-color-schemes: light dark;
@@ -29,17 +30,15 @@
             -webkit-font-smoothing: antialiased !important;
         }
 
-        /* Сброс стилей */
+        /* Стили изображений */
         img {
             border: 0 !important;
             outline: none !important;
             display: block !important;
         }
 
-        p {
-            margin: 0 !important;
-            padding: 0 !important;
-        }
+        /* Стили текста */
+        p { margin: 0px !important; padding: 0px !important; }
 
         /* Стили таблиц */
         table {
@@ -48,401 +47,666 @@
             mso-table-rspace: 0px;
         }
 
-        td, a, span {
-            border-collapse: collapse;
-            mso-line-height-rule: exactly;
+        /* Остальная структура остается без изменений */
+        .ExternalClass * {
+            line-height: 100%;
         }
-
-        /* Специфичные стили для почтовых клиентов */
-        .ExternalClass * { line-height: 100%; }
         .em_defaultlink a {
             color: inherit !important;
             text-decoration: none !important;
         }
-
-        /* Специфичные стили для Outlook */
-        span.MsoHyperlink,
+        span.MsoHyperlink {
+            mso-style-priority: 99;
+            color: inherit;
+        }
         span.MsoHyperlinkFollowed {
             mso-style-priority: 99;
             color: inherit;
         }
-
-        /* Фикс для Gmail */
         .gmailfix {
             display: none;
             display: none !important;
         }
-
-        /* Адаптивные стили */
+        /*Stylesheet for the devices width between 481px to 600px*/
         @media only screen and (min-width:481px) and (max-width:600px) {
-            .em_main_table, .em_wrapper { width: 100% !important; }
-            .em_spacer { width: 11px !important; }
-            .em_hide { display: none !important; }
-            .em_full_img {
+            .em_main_table {
                 width: 100% !important;
-                height: auto !important;
             }
-        }
-
-        @media only screen and (max-width:480px) {
-            /* Мобильные стили */
-            .em_main_table, .em_wrapper { width: 100% !important; }
-            .em_text1 { 
-                font-size: 12px !important; 
-                line-height: 15px !important; 
-                letter-spacing: -.09em !important; 
-            }
-        }
-    </style>
-</head>
-<body>
-    <!-- Предпросмотр письма (скрытый) -->
-    <span class="preheader" style="color: #f3f3f3; display: none!important; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; mso-hide: all!important; opacity: 0; overflow: hidden; visibility: hidden;">
-        Скидки до 50% + дополнительные 20% + специальное предложение дня
-    </span>
-
-    <!-- Контейнер письма -->
-    <div style="max-width: 600px; margin: 0 auto;">
-        <!-- Основные секции -->
-        <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#F5F5F5">
-            <tr>
-                <td align="center">
-                    <!-- Секция шапки -->
-                    <!-- ...существующий код шапки... -->
-
-                    <!-- Секция основных предложений -->
-                    <!-- ...существующий код предложений... -->
-
-                    <!-- Сетка товаров -->
-                    <!-- ...существующий код товаров... -->
-
-                    <!-- Подвал -->
-                    <!-- ...существующий код подвала... -->
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <!-- Фиксы для почтовых клиентов -->
-    <div class="gmailfix" style="white-space: nowrap; font: 15px courier; line-height: 0;">
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitamin Shoppe Email</title>
-
-    <!-- Dark Mode Support -->
-    <style>
-        :root {
-            color-scheme: light dark;
-            supported-color-schemes: light dark;
-        }
-
-        /* Dark Mode Styles */
-        @media (prefers-color-scheme: dark) {
-            .lightkBanner { display: none !important; }
-            .darkBannerWrapper, .darkBanner { display: block !important; }
-            .darkBG { background-color: #012169 !important; }
-        }
-
-        /* Base Styles */
-        body {
-            margin: 0 !important;
-            padding: 0 !important;
-            -webkit-text-size-adjust: 100% !important;
-            -ms-text-size-adjust: 100% !important;
-            -webkit-font-smoothing: antialiased !important;
-        }
-
-        /* Reset Styles */
-        img {
-            border: 0 !important;
-            outline: none !important;
-            display: block !important;
-        }
-
-        p {
-            margin: 0 !important;
-            padding: 0 !important;
-        }
-
-        /* Table Styles */
-        table {
-            border-collapse: collapse;
-            mso-table-lspace: 0px;
-            mso-table-rspace: 0px;
-        }
-
-        td, a, span {
-            border-collapse: collapse;
-            mso-line-height-rule: exactly;
-        }
-
-        /* Email Client Specific */
-        .ExternalClass * { line-height: 100%; }
-        .em_defaultlink a {
-            color: inherit !important;
-            text-decoration: none !important;
-        }
-        
-        /* Microsoft Outlook Specific */
-        span.MsoHyperlink,
-        span.MsoHyperlinkFollowed {
-            mso-style-priority: 99;
-            color: inherit;
-        }
-
-        /* Gmail Fix */
-        .gmailfix {
-            display: none;
-            display: none !important;
-        }
-
-        /* Responsive Styles */
-        @media only screen and (min-width:481px) and (max-width:600px) {
-            .em_main_table, .em_wrapper { width: 100% !important; }
-            .em_spacer { width: 11px !important; }
-            .em_hide { display: none !important; }
-            .em_full_img {
+            .em_wrapper {
                 width: 100% !important;
-                height: auto !important;
             }
-            /* More responsive styles... */
-        }
-
-        @media only screen and (max-width:480px) {
-            /* Mobile specific styles */
-            .em_main_table, .em_wrapper { width: 100% !important; }
-            .em_text1 { 
-                font-size: 12px !important; 
-                line-height: 15px !important; 
-                letter-spacing: -.09em !important; 
-            }
-            /* More mobile styles... */
-        }
-    </style>
-</head>
-<body>
-    <!-- Preheader Text (Hidden) -->
-    <span class="preheader" style="color: #f3f3f3; display: none!important; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; mso-hide: all!important; opacity: 0; overflow: hidden; visibility: hidden;">
-        Up to 50% off + 20% off + today's deal
-    </span>
-
-    <!-- Email Content Container -->
-    <div style="max-width: 600px; margin: 0 auto;">
-        <!-- Main Content Sections -->
-        <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center" bgcolor="#F5F5F5">
-            <tr>
-                <td align="center">
-                    <!-- Header Section -->
-                    <!-- ...existing header code... -->
-
-                    <!-- Main Offer Section -->
-                    <!-- ...existing offer code... -->
-
-                    <!-- Product Grid Section -->
-                    <!-- ...existing product grid code... -->
-
-                    <!-- Footer Section -->
-                    <!-- ...existing footer code... -->
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <!-- Email Client Fixes -->
-    <div class="gmailfix" style="white-space: nowrap; font: 15px courier; line-height: 0;">
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    </div>
-</body>
-</html><html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitamin Shoppe Email</title>
-</head>
-<body>
-    <div>
-        <div></div>
-      </div>
-      <style>:root {
-          color-scheme: light dark;
-          supported-color-schemes: light dark;
-      }
-            @media (prefers-color-scheme: dark) {
-            .lightkBanner {
-                display: none !important;
-            }
-            .darkBannerWrapper, .darkBanner {
-                display: block !important;
-            }
-            .darkBG {
-                background-color: #012169 !important;
-            }
-            }
-            body {
-              margin: 0 !important;
-              padding: 0 !important;
-              -webkit-text-size-adjust: 100% !important;
-              -ms-text-size-adjust: 100% !important;
-              -webkit-font-smoothing: antialiased !important;
-            }
-            img {
-              border: 0 !important;
-              outline: none !important;
-              display: block !important;
-            }
-            p {
-              margin: 0px !important;
-              padding: 0px !important;
-            }
-            table {
-              border-collapse: collapse;
-              mso-table-lspace: 0px;
-              mso-table-rspace: 0px;
-            }
-            td,
-            a,
-            span {
-              border-collapse: collapse;
-              mso-line-height-rule: exactly;
-            }
-            .ExternalClass * {
-              line-height: 100%;
-            }
-            .em_defaultlink a {
-              color: inherit !important;
-              text-decoration: none !important;
-            }
-            span.MsoHyperlink {
-              mso-style-priority: 99;
-              color: inherit;
-            }
-            span.MsoHyperlinkFollowed {
-              mso-style-priority: 99;
-              color: inherit;
-            }
-            .gmailfix {
-              display: none;
-              display: none !important;
-            }
-                  /*Stylesheet for the devices width between 481px to 600px*/
-                  @media only screen and (min-width:481px) and (max-width:600px) {
-      .em_main_table {
-                width: 100% !important;
-              }
-              .em_wrapper {
-                width: 100% !important;
-              }
-              .em_spacer {
+            .em_spacer {
                 width: 11px !important;
-              }
-              .em_hide {
+            }
+            .em_hide {
                 display: none !important;
-              }
-              .em_full_img {
+            }
+            .em_full_img {
                 width: 100% !important;
                 height: auto !important;
-              }
-              .em_height {
+            }
+            .em_height {
                 height: 20px !important;
-              }
-              .em_side {
+            }
+            .em_side {
                 width: 10px !important;
-              }
-              .em_sides {
+            }
+            .em_sides {
                 width: 10% !important;
-              }
-              .em_pad {
+            }
+            .em_pad {
                 padding-top: 15px !important;
-              }
-              .em_aside {
+            }
+            .em_aside {
                 padding: 0px 10px;
-              }
-              .em_center {
+            }
+            .em_center {
                 text-align: center !important;
-              }
-              .em_auto {
+            }
+            .em_auto {
                 height: auto !important;
                 background-repeat: no-repeat !important;
                 background-position: center top !important;
                 background-size: cover !important;
-              }
-              .disclaimer {
+            }
+            .disclaimer {
                 font-size: 10px !important;
                 line-height: 14px !important;
-              }
-                  }
-                  /*Stylesheet for the devices width between 0px to 480px*/
-                  @media only screen and (max-width:480px) {
-      .em_main_table {
+            }
+        }
+        /*Stylesheet for the devices width between 0px to 480px*/
+        @media only screen and (max-width:480px) {
+            .em_main_table {
                 width: 100% !important;
-              }
-              .em_wrapper {
+            }
+            .em_wrapper {
                 width: 100% !important;
-              }
-              .em_spacer {
+            }
+            .em_spacer {
                 width: 11px !important;
-              }
-              .em_hide {
+            }
+            .em_hide {
                 display: none !important;
-              }
-              .disclaimer {
-                  font-size: 10px !important;
-                  line-height: 14px !important;
-              }
-              .em_full_img {
+            }
+            .disclaimer {
+                font-size: 10px !important;
+                line-height: 14px !important;
+            }
+            .em_full_img {
                 width: 100% !important;
                 height: auto !important;
                 max-width: 100% !important;
-              }
-              .em_height {
+            }
+            .em_height {
                 height: 20px !important;
-              }
-              .em_aside {
+            }
+            .em_aside {
                 padding: 0px 10px;
-              }
-              .em_side {
+            }
+            .em_side {
                 width: 10px !important;
-              }
-              .em_sides {
+            }
+            .em_sides {
                 width: 10% !important;
-              }
-              .em_pad {
+            }
+            .em_pad {
                 padding-top: 15px !important;
-              }
-              .em_auto {
+            }
+            .em_auto {
                 height: auto !important;
                 background-repeat: no-repeat !important;
                 background-position: center top !important;
                 background-size: cover !important;
-              }
-              .disclaimer {
+            }
+            .disclaimer {
                 font-size: 10px !important;
                 line-height: 14px !important;
-              }
-      .em_text1 { font-size: 12px !important; line-height: 15px !important; letter-spacing: -.09em !important; }
-      .em_text2 { font-size: 29px !important; line-height: 33px !important; }
-      .em_text3 { font-size: 23px !important; line-height: 26px !important; padding: 0px 10px !important; }
-      .em_text4 { font-size: 24px !important; line-height: 27px !important; padding: 0px 10px !important; }
-      .em_text5 { font-size: 13px !important; line-height: 18px !important; }
-                  }</style>
-      <div><!-- [if gte mso 9]>
-      <xml>
-      <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-      </o:OfficeDocumentSettings>
-      </xml>
-      <![endif]--> 
-        <span class="preheader" style="color: #f3f3f3; display: none!important; font-size: 1px; line-height: 1px; max-height: 0; max-width: 0; mso-hide: all!important; opacity: 0; overflow: hidden; visibility: hidden;">
-          <span class="" style="">Up to 50% off + 20% off + today's deal</span>
-        </span> <!-- Insert &zwnj;&nbsp; hack after hidden preview text -->
-        <div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&
+            }
+            .em_text1 { font-size: 12px !important; line-height: 15px !important; letter-spacing: -.09em !important; }
+            .em_text2 { font-size: 29px !important; line-height: 33px !important; }
+            .em_text3 { font-size: 23px !important; line-height: 26px !important; padding: 0px 10px !important; }
+            .em_text4 { font-size: 24px !important; line-height: 27px !important; padding: 0px 10px !important; }
+            .em_text5 { font-size: 13px !important; line-height: 18px !important; }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Предзагрузка -->
+    <div style="font-size:0; line-height:0;">
+        <custom name="opencounter" type="tracking">
+        <custom name="usermatch" type="tracking" />
+    </div>
+
+    <!-- Основной контейнер -->
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+        <!-- Шапка -->
+        <tr>
+            <td align="center" valign="top">
+                <custom type="header" />
+            </td>
+        </tr>
+
+        <!-- Основной контент - оставляем структуру без изменений -->
+        <tr>
+            <td align="center" valign="top">
+                <table class="em_main_table" style="width: 600px; table-layout: fixed;" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+                    <tbody>
+                        <tr>
+                            <td align="center" valign="top">
+                                <table class="em_wrapper" style="width: 600px;" border="0" width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff"><!-- MI PIXEL -->
+                                    <tbody>
+                                        <tr>
+                                            <td style="font-size: 0px; line-height: 0px;">
+                                                <img src="http://mi.vitaminshoppe.com/p/up/0a492eeba5e937a545d3c182b76b2413/o.gif?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" width="1" height="1">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="line-height: 0px; font-size: 0px; height: 5px;" height="5">&nbsp;</td>
+                                        </tr>
+                                        <!-- /MI PIXEL --> <!--HEADER SECTION with SHIPPING--> <!--VS Header-->
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="em_wrapper" style="width: 600px; table-layout: fixed;" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <table class="em_wrapper" style="width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="em_hide" align="center" valign="top">
+                                                                                <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 1px; line-height: 1px; display: block; max-width: 16px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_01.jpg" alt="" width="16" border="0">
+                                                                            </td>
+                                                                            <td align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCYCY&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmDmC69maF25_STC-QJhslWXY5S8imgL0i5i4oGD_eEKpOAHiD882TJ93w5XfHI7llLEADUFWm-Bbmz3xyxvlutrhpqtQmoDK1LQyc9ogPTQH5aRRni2WZoYgW3OsLQMWQDr0S0ae7hoMYT5s2F_58UppLkOyNUg2fg2M.&amp;_di_=1jb48rkgae5j3nth9aeefqrlhil2qtd78qoa8mc027g40mthqc80" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 30px; text-align: center; font-weight: bold; color: #000000; display: block; max-width: 568px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_02.jpg" alt="Vitamin Shoppe" width="568" height="" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                            <td class="em_hide" align="center" valign="top">
+                                                                                <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 1px; line-height: 1px; display: block; max-width: 16px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_03.jpg" alt="" width="16" border="0">
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <table class="em_wrapper" style="width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td class="em_hide" align="center" valign="top">
+                                                                                <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 1px; line-height: 1px; display: block; max-width: 16px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_04.jpg" alt="" width="16" border="0">
+                                                                            </td>
+                                                                            <td align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCYCY&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmDmC69maF25_STC-QJhslWXY5S8imgL0i5i4oGD_eEKpOAHiD882TJ93w5XfHI7llLEADUFWm-Bbmz3xyxvlutrhpqtQmoDK1LQyc9ogPTQH5aRRni2WZoYgW3OsLQMWQDr0S0ae7hoMYT5s2F_58UppLkOyNUg2fg2M.&amp;_di_=1jb48rkgae5j3nth9aeefqrlhil2qtd78qoa8mc027g40mthqc80" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 30px; text-align: center; font-weight: bold; color: #000000; display: block; max-width: 89px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_05.jpg" alt="" width="89" height="" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                            <td align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCARY&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmDmC69maF25_STC-QJhslWXY5S8imgL0i5i4oGD_eEKoUkcBB4CeNT_gz5y0s6LBWnBFXOsjicmeuyIlBpK-RfbIAdiyq_PNHB9x_9fbqhPc1FnfS2fjnGnccocSk92alvJQLgutQd4qa6lq8pzarGj1y_DUXFlpgoZoc_jDI8THugA2Gp1B8tbzTIZeb3.&amp;_di_=7hua9d76ivqq0muefgb8a92np6kaca2jghmhafagqsoe56heplkg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 30px; text-align: center; font-weight: bold; color: #000000; display: block; max-width: 99px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_06.jpg" alt="Vitamins" width="99" height="" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                            <td align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCATY&amp;_ei_=ERVxZGoi3xyjeaR3--BkvOPOIPubOS06CsvZRtVH99LZ0LRFJ3wHvhjJniQ8iWM8_Ys0aUO0SgCT1nPrk4Zj2gEs0ZZTH6C9iZS1qU1WRAv8492srwm2JYZ2KxrkQohZX9xB1FtCY532uWDGhrwIEUdg3Ib6a4hRtQHAjXV_3c32lbk3lN8fUYzArd6o8KAi0Ev0yhk.&amp;_di_=d7al4b3hcgokvr0e5mfogr819sbjd9m4a43grf98rtiqttb4r6o0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 30px; text-align: center; font-weight: bold; color: #000000; display: block; max-width: 82.5px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_07.jpg" alt="Protein" width="82.5" height="" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                            <td align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCAWY&amp;_ei_=ERu1KBnEuOTmPVfDb9K7RBfp2v1RUWSU7In7sOUDyeEWcUlC88L5Vn8Osg0QHSi1l_H8ofbE2GHnHBdM1d0_dfipxsBx3xg7mXh540uCsd4RaLD2T2J_b1Vu6g818WT_uSOVtYJTUfYIhtN_MmkfObduvRO2SoSMjICMX80Hjw.&amp;_di_=e6r13a10l9ivk1nvi2bfbk84j4udml6vgtghl3gegh37qov06gd0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="font-family: Arial, sans-serisf; font-size: 16px; line-height: 30px; text-align: center; font-weight: bold; color: #000000; display: block; max-width: 66px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_08.jpg" alt="Deals" width="66" height="" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                            <td align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCAAY&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmDmC69maF25_STC-QJhslWXY5S8imgL0i5i4oGD_eEKmC4N4d0WIjFnRJqU9IoUyWDAK0rXT_oZ4Rp_WDeP7F8Ty4VZOFdjQPDf4kq0WLPaPgl5t7ib7XP-zvViYnnNlQ5mcnvTpddySPbWjvLo_yIvOCqh3Y.&amp;_di_=1l2cm8ednm7c2hfor6jk9us3gepf9ekhrhhu1632k6v807ejh1e0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 30px; text-align: center; font-weight: bold; color: #000000; display: block; max-width: 88.5px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_09.jpg" alt="Reorder" width="88.5" height="" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                            <td align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCACY&amp;_ei_=EW2tf9zs59idfPO1Sc_9BbmDmC69maF25_STC-QJhslWXY5S8imgL0i5i4oGD_eEKsaCzbABRCXLoToLdjEr0QLRfQpg-8Dw_x7XJ3m-AMPfphqGrrEeAssrADZk96S1FxBJPizB3dUPb8xYqJPXVjRzhogOVG3NydvTbNx6_oYPAsI.&amp;_di_=7nsdr7elq7iq9dbiqgpa1masa9fgluu6ok06qg7gro62ahqfk4d0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 30px; text-align: center; font-weight: bold; color: #000000; display: block; max-width: 143px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_10.jpg" alt="Find a Store" width="143" height="" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                            <td class="em_hide" align="center" valign="top">
+                                                                                <img class="em_full_img" style="font-family: Arial, sans-serif; font-size: 1px; line-height: 1px; display: block; max-width: 16px;" src="https://images.emailaptitude.com/vitaminshoppe/template/header/V2A/EM_HEADER_TVS_NOBANNER_11.jpg" alt="" width="16" border="0">
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <!--/VS Header=--> <!--For no shipping use this:  
+                                        cms://contentlibrary/dynamic_template_sections/dynamic_header_no_ship_new-nov2021.htm
+                                        --> <!-- BODY SECTION-->
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="em_wrapper" style="width: 600px;" border="0" width="600" cellspacing="0" cellpadding="0" align="center"><!-- LOYALTY BANNER -->
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top" bgcolor="#F5F9F5">
+                                                                <a href="http://mi.vitaminshoppe.com/p/cp/997160f69119fe91/c?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo&amp;mi_rewd=0&amp;mi_points=59&amp;mi_name=IBRAHIM&amp;mi_status=ENB Bronze&amp;mi_voucher=0&amp;mi_issue=&amp;mi_voucherStatus=&amp;mi_voucherValue=0&amp;mi_issueDate=Jan 1, 1800, 12:00:00 AM&amp;mi_vouchersTotal=0&amp;mi_suppression=ibrahim.iqbal49@gmail.com&amp;mi_lastPurchase=Mar 5, 2022, 3:00:00 AM&amp;mi_attribute=&amp;mi_net_spend=59.49&amp;url=http%3A%2F%2Fmi.vitaminshoppe.com%2Fp%2Frp%2Ff3eef8b2c596071e%2Furl" style="display: block;">
+                                                                    <img class="em_full_img" style="border: 0; display: block;" src="http://mi.vitaminshoppe.com/p/rp/f3eef8b2c596071e.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo&amp;mi_rewd=0&amp;mi_points=59&amp;mi_name=IBRAHIM&amp;mi_status=ENB Bronze&amp;mi_voucher=0&amp;mi_issue=&amp;mi_voucherStatus=&amp;mi_voucherValue=0&amp;mi_issueDate=Jan 1, 1800, 12:00:00 AM&amp;mi_vouchersTotal=0&amp;mi_suppression=ibrahim.iqbal49@gmail.com&amp;mi_lastPurchase=Mar 5, 2022, 3:00:00 AM&amp;mi_attribute=&amp;mi_net_spend=59.49" alt="Loyalty Banner" width="600" border="0">
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                        <!-- /LOYALTY BANNER -->
+                                                        <tr>
+                                                            <td align="center" valign="top" bgcolor="#ffffff">
+                                                                <table class="em_wrapper" border="0" width="100%" cellspacing="0" cellpadding="0" align="center"><!-- BODY SECTION --> <!-- INSERT HERO HERE -->
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center" valign="top" bgcolor="#ffffff">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDYAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=ggpeiktsqmldknf9sfrgn2pirjh8cdn5ehob402v71f357boa3g0" style="text-decoration: none; color: #000000;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 25px; line-height: 35px; max-width: 600px; text-transform: uppercase; font-weight: bold;" src="https://images.emailaptitude.com/vitaminshoppe/2022/11.November/11.26.22_Sat20off60_EM3/1.jpg" alt="GREAT BIG SALE: 20% off $60 or more &amp; Up to 50% off" width="600" height="auto" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" valign="top" bgcolor="#ffffff">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDYAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=ggpeiktsqmldknf9sfrgn2pirjh8cdn5ehob402v71f357boa3g0" style="text-decoration: none; color: #000000;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 25px; line-height: 35px; max-width: 600px; text-transform: uppercase; font-weight: bold;" src="https://images.emailaptitude.com/vitaminshoppe/2022/11.November/11.26.22_Sat20off60_EM3/2.gif" alt="Save on Top Picks" width="600" height="137" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" valign="top" bgcolor="#ffffff">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDYCY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=f20hgpbc26kangg9p6ntp0k1r7cti085c23i96fp0qs0oqu0e1p0" style="text-decoration: none; color: #000000;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 25px; line-height: 35px; max-width: 600px; text-transform: uppercase; font-weight: bold;" src="http://mi.vitaminshoppe.com/p/rp/a0ced36201d9201a.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" alt="Display images to show real-time content" width="600" height="auto" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" valign="top" bgcolor="#ffffff">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDARY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=t0urp1pd2q5lfa2u6ca5eem2lie539l4iv1mpkvgj3u1riooa1qg" style="text-decoration: none; color: #000000;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 25px; line-height: 35px; max-width: 600px; text-transform: uppercase; font-weight: bold;" src="http://mi.vitaminshoppe.com/p/rp/6d314ea51f8f080a.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" alt="Display images to show real-time content" width="600" height="auto" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" valign="top" bgcolor="#ffffff">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDATY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=lj2qf1vf98eh8lfnbbm8s4gj3g7j2cvhd79cssuulqho4ariad80" style="text-decoration: none; color: #000000;" target="_blank" rel="noopener">
+                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, Helvetica, sans-serif; color: #000000; font-size: 25px; line-height: 35px; max-width: 600px; text-transform: uppercase; font-weight: bold;" src="https://images.emailaptitude.com/vitaminshoppe/2022/11.November/11.26.22_Sat20off60_EM3/3.jpg" alt="$1 Drink Weekends" width="600" height="auto" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!-- END REST OF EMAIL HERE --> <!-- PRODUCT RECS -->
+                                                                        <tr>
+                                                                            <td style="background-color: #ffffff; line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDAWY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=6tnajao2mnisdo72ueo3b96v6vr2tptfbgmd89783iom8liq5fpg">
+                                                                                    <img class="em_full_img" style="border: 0; display: block;" src="http://mi.vitaminshoppe.com/p/rp/802e05548cfcf9cc.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" alt="Display images to show real-time content" width="600" height="auto" border="0">
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center" valign="top">
+                                                                                <table class="em_wrapper" style="width: 600px;" border="0" width="600" cellspacing="0" cellpadding="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDAAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=rm7109eh9h0i57s7ki00e1bl5gocuv54nvc2097aibgpr67qbnbg" style="display: block;">
+                                                                                                    <img class="em_full_img" style="border: 0; display: block;" src="http://mi.vitaminshoppe.com/p/rp/22c3609d95b3c4a5.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" alt="Display images to show real-time content" width="150" height="auto" border="0">
+                                                                                                </a>
+                                                                                            </td>
+                                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDACY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=vbeeoir7d18ep9p7pf2iaj490ujqts97su07pu9lgkulf28u87ag" style="display: block;">
+                                                                                                    <img class="em_full_img" style="border: 0; display: block;" src="http://mi.vitaminshoppe.com/p/rp/a9e09f2be22dcc26.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" alt="Display images to show real-time content" width="150" height="auto" border="0">
+                                                                                                </a>
+                                                                                            </td>
+                                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDBRY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=k7clgu5ldev2rk1ku6vtaemrn0i4pv4ov460022tnbc8hnr17k7g" style="display: block;">
+                                                                                                    <img class="em_full_img" style="border: 0; display: block;" src="http://mi.vitaminshoppe.com/p/rp/232e08e64c67280e.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" alt="Display images to show real-time content" width="150" height="auto" border="0">
+                                                                                                </a>
+                                                                                            </td>
+                                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDBTY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=bcl8b0l124v5vtg0mcu1u4kv64kecqcu8tuf4rfk1lbbhpeg5t9g" style="display: block;">
+                                                                                                    <img class="em_full_img" style="border: 0; display: block;" src="http://mi.vitaminshoppe.com/p/rp/991f0fbb98d8ab45.png?mi_u=26256400315&amp;mi_ecmp=20221126_WK48_Sat20off60EM3_AM_10Mo" alt="Display images to show real-time content" width="150" height="auto" border="0">
+                                                                                                </a>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <!--  //PRODUCT RECS -->
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <!--// BODY SECTION-->
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="em_main_table" style="width: 600px; table-layout: fixed;" border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" valign="top"><!--FOOTER-->
+                                                                <table class="em_wrapper darkBG" style="width: 600px; max-width: 600px; background-color: #0458ad;" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#0458ad">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly; background-color: #ffffff;" align="center" valign="top">
+                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDCTY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=bkgq1m25smnpsjaao88pp1g0mu29vp75mn1a78iaiiv751duh3qg"><!--LIGHT MODE BANNER--> 
+                                                                                    <img class="em_full_img lightkBanner" style="border: 0; display: block;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/01.jpg" alt="Display images to show real-time content" width="600" height="auto" border="0"> <!--DARK MODE BANNER-->
+                                                                                </a>
+                                                                                <div class="darkBannerWrapper" style="mso-hide: all; display: none;">
+                                                                                    <img class="darkBanner em_full_img" style="border: 0; outline: none; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; text-align: center; font-weight: bold; color: #ffffff; display: block; width: 600px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/01dm.jpg" alt="in" width="600" border="0">
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td align="center">
+                                                                                <table class="em_wrapper" style="width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="em_side" style="width: 25px;" width="25">&nbsp;</td>
+                                                                                            <td align="center">
+                                                                                                <table class="em_wrapper" style="width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td class="em_height" style="line-height: 0px; font-size: 0px; height: 30px;" height="30">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center">
+                                                                                                                <table class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDCWY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=dphqse99hkjvu21m40nnf5abtpk0677pqq6rs83ge3pk50ir1ei0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 138px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/02.png" alt="Contact Us" width="138" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDCAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=lk2h4muqmgrhuvdeaf17drpukvs6t6la9eit674on326asi6vcgg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 138px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/03.png" alt="Locations" width="138" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCBRY&amp;_ei_=EWcoImnNPTEuTEH1bun7SgwjGggwQUG1ZUAUdbC8eJiGKzdjQeyZ0YbuLoZRiEOiVPpzZmlyz6u7HuKuasMDYReU7OOBYgb3O3PlS5kZpw_LzrfX1JTmcWqaO2zno1e23oBC65GrBPopaV2vVYgBFWZu_OnMn9Ch5pOvioChSNwUPGxDgGf2J_XlBqKg8uESUCzGxuj3LOEN1wueMAxlSQw1gmFIS3K5MvyUgVJEj8CpCMIBtuuqREl9gZQHNn_WVqY9OojwxZqTfRCAzzIw-Rbf6cNadOvm6ic83p-DafQzzrz2hZbMSPyUhoC0y9Qr0knxvtsLICsy7pv91Z3PBfOORBG34T6dvk52gC0DQTN0EYru20Uu4HqDna6FeF8ItCDTmXvSbJ27G-DxvTgCKlQscaSY1i34zPyWZ5ylzeVVhCHTEX1L6UgYJ0vDNvFHImwEpWi7y5fY9nPhWEYk_CHB43xyz4FNqXh7X0h-aw9gYLcWjn6rv6o_Ih3_i0K-SvSAZjOo2cqCogMRqigvsY-NVKj4tWzRSbthfZcsp3L1WcEphcnID9kod71qRSSmWYplB-rTvab3vxHpA4k1zmD7PFwKLF3dqUdnYqvD6Kguhf_aF98aQggywHhPPxb7SOtz4D-zPIkGD4ZKPodCeAy7vgeSQ1zomaBTWlFXGkN1X84bQA2RDMYgecAqaFBZqdvmfL7x2o135PIUtRQcl7v1PfLQYYg4dHwRVPO9oyiHm6HnhUe-REM0cZtC_RQqrFmcbQy_MlOwucny7D1Yb0UrxVY1B8auI-na88iknOdM12GxQfCdzJSoCr_W5A9RDAB9nUt1rhHCjztrg80CcPKWF6uEfbdyQf1XEEmZEu8SwhxMdLspHnQHbSd6nwpJGyOhn1Rx07sqXnZ5P5sOJSjC_xxzN1oAZi9K9ypOzBaZemRq2P9mxYyz03ov56g6lv3XocYUaprS4cono8i19HCpVUnCmezkRSI3PwYVgJrnoA40hBX0MueWbagk5oFq082dFgpiq4Su1SBsjCcwXejzeJd_1YPv-yD6gAK-RxNX-Q8bwG76JeiaichRyUAIGARb5sq3j7iYESlbKAFCNDbFMmqV51Yc4yUvnyEa0MRewCnL-p9GliIk1PXyH_fk18452qjGSMeUv_RCsOwWLg4jHnvQd1SoC_I7BlygS1dD0_s92FT-g6vscYmGue0tuJOqJObt.&amp;_di_=kg7v1jmrgb7aj6kk0j525h5dkropd3439fmjvrt2ipu7khq7r1c0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 138px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/04.png" alt="Preferences" width="138" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCBTY&amp;_ei_=E-7BMzQvpWu9OVmCj_pjnx1QXkTazzJyDiTSSgo-MoAGLnT2SUPLaG7nt1kBb8fs6toOl1NQypxF1NifJBYuY6nD9czY7VHaY82-hHsoA9ly0qhL2ChCWRtj0kEjSw9W4In-M1vwc8n39IcAoHYiLgfv0ozXYS1r8ZK2qgwXRpRpcM.&amp;_di_=9es61o4qm22e3ep5q467dhhsccos505g2ehrkr4c5hctverer9eg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 138px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/05.png" alt="Get Texts" width="138" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDCCY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=9m6m4tfpvr4fmkrr1h9i96jrfrpit07hd4govtout2mtleuk7in0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                    <img class="em_full_img" style="border: 0; display: block;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/06.png" alt="Easy Ways to Shop" width="550" height="auto" border="0">
+                                                                                                                </a>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center">
+                                                                                                                <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td style="width: 40px;" width="40">&nbsp;</td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDCCY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=9m6m4tfpvr4fmkrr1h9i96jrfrpit07hd4govtout2mtleuk7in0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 83px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/07.png" alt="Online" width="83" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDDRY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=jprr69m39ii59or0id9d4e96u7lj2rrotalu9ulr6j77huj5blcg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 145px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/08.png" alt="2-Hour Pickup" width="145" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDDTY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=mfg68bivc6defbjhlb5v2r28po97svkrukumio4ng009meu47mtg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 97px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/09.png" alt="Our App" width="97" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td style="width: 40px;" width="40">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="line-height: 0px; font-size: 0px; height: 15px;" height="15">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center">
+                                                                                                                <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td style="width: 40px;" width="40">&nbsp;</td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDCAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=lk2h4muqmgrhuvdeaf17drpukvs6t6la9eit674on326asi6vcgg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 93px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/10.png" alt="In-Store" width="93" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDDWY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=ubpnk9hj0ep9079bd1l18tkgjglfbcbahhaub6r0jt5fdf6ou6a0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 139px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/11.png" alt="Auto Delivery" width="139" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDDAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=elfoq5sp8cjsj0krai0al3q5fns01b5mh9blhp3a86sp80i1p2hg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 98px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/12.png" alt="Instacart" width="98" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td style="width: 40px;" width="40">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDDCY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=dqmci8pn0n8ft2kfpnvqdi99dsmesvumgkgmq8n0n9o8j7us98qg">
+                                                                                                                    <img class="em_full_img" style="border: 0; display: block;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/13.png" alt="Plus: Shop Now, Pay Later with Klarna. | Learn More" width="550" height="auto" border="0">
+                                                                                                                </a>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="line-height: 0px; mso-line-height-rule: exactly;" align="center" valign="top">
+                                                                                                                <img class="em_full_img" style="border: 0; display: block;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/14.png" alt="Display images to show real-time content" width="550" height="auto" border="0">
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="line-height: 0px; font-size: 0px; height: 10px;" height="10">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center">
+                                                                                                                <table class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARRRY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=mrp365d6ntph8j2h9b7h0n4b5tmvuqcgbpga7oh5kqnfavnhchb0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 115px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/15.png" alt="Just In" width="115" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARRTY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=q7tl4atm0j8se0rbhnvkg3osq0gacrlm8k7ob1irg5lkma17p9lg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 137px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/16.png" alt="What's Good" width="137" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARRWY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=lspopg96bupc9kmmpjt5dt56dsjdd6nmv7e55f4juanh6fmmvh80" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 138px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/17.png" alt="Featured Deals" width="138" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARRAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=8ah237i9f5odib9ntv8nd4qrl3q7sbghfbsjtrc5a04asctpplb0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 160px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/18.png" alt="Healthy Awards®" width="160" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center">
+                                                                                                                <table border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td align="center">
+                                                                                                                                <table style="width: 52%;" border="0" width="260" cellspacing="0" cellpadding="0" align="left">
+                                                                                                                                    <tbody>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="left" valign="middle">
+                                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARRCY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=7mo1vknc07ae817862jtnmg9g9nn1asp89k4ahdca76qqfh5mun0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 144px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/19.png" alt="Get It On Google Play" width="144" border="0">
+                                                                                                                                                </a>
+                                                                                                                                            </td>
+                                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                                            <td align="center" valign="middle">
+                                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARSRY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=epbd408j3l15c3tja3rjmujere7mjposrlbp10gj81ls08hies50" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 128px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/20.png" alt="Download on the App Store" width="128" border="0">
+                                                                                                                                                </a>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                    </tbody>
+                                                                                                                                </table>
+                                                                                                                                <table style="width: 40%;" border="0" width="220" cellspacing="0" cellpadding="0" align="right">
+                                                                                                                                    <tbody>
+                                                                                                                                        <tr>
+                                                                                                                                            <td align="center" valign="middle">
+                                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARSTY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=ot5vtqqd9is0qosa986ifeaof1naf7bhkegf96dr76gnhcqpos40" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 40px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/21.png" alt="Facebook" width="40" border="0">
+                                                                                                                                                </a>
+                                                                                                                                            </td>
+                                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                                            <td align="center" valign="middle">
+                                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARSWY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=v5ho32aa54guekceh8lqrbcm5pqt1417rp0kfjdkifbu2hjkbp9g" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 40px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/22.png" alt="Tik Tok" width="40" border="0">
+                                                                                                                                                </a>
+                                                                                                                                            </td>
+                                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                                            <td align="center" valign="middle">
+                                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARSAY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=2nh8lttvh7orj2r5jgj6esc20i9k18pg7ubqo9738mhfpfqpf7u0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 40px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/23.png" alt="Instagram" width="40" border="0">
+                                                                                                                                                </a>
+                                                                                                                                            </td>
+                                                                                                                                            <td class="em_side" style="width: 15px;" width="15">&nbsp;</td>
+                                                                                                                                            <td align="center" valign="middle">
+                                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAARSCY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=mliqnf0d7fh2khe60opnn1pqv82489crg0n6vo0ig5i1k4qgqmcg" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 40px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/24.png" alt="YouTube" width="40" border="0">
+                                                                                                                                                </a>
+                                                                                                                                            </td>
+                                                                                                                                        </tr>
+                                                                                                                                    </tbody>
+                                                                                                                                </table>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="line-height: 0px; font-size: 0px; height: 10px;" height="10">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center">
+                                                                                                                <table class="em_wrapper" border="0" cellspacing="0" cellpadding="0" align="center">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDBWY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=fiu1njqeqb2rnea9cj9j7i2g6n87ke6kd77lpjabjivae9dchtv0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 137px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/25v3.png" alt="Help + Info" width="137" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDBAY&amp;_ei_=EOwPQ42l-mBFJGD0ZPxQdvmk-ZiWANyyMZO8NeQHYQyLQKDTyh-CeHdd5E9fx0yHSZiKw0M5plIaeGY6UqcDlXIn3EEd7t4eEViq8mlNeFYJuFsgvFJerOjgalp82ysoW4NYi1uGHRAIunlibK00qBl6ECg9r6iVmBxcSFc_GRqvXryvEwnZy_m5ISSQi_9uQg6ZipCIJ47KnZ4iukVMkAiWC2g8M2-hujuFJvs4508BwG63bdZOSpRCJUlpfTZtKrP0kzL8wBhR_HlC7iRN_sxx81_KBH7MELq_0F2_JdNeZafpBL5EedisuGisVI6kLelgY4zWtKhH3v8OhAnGHJm2OpAlw4z5sVhFPF7F2KN4Mkv6B6P8p_wUS5w4Aw-C3qUDjjr-FeVQZCOHTUeAev09i4SHjk4lX1ozOGOVcAtmeawcKe9hxP9SdduCRvDt13q8IjIKpJ7Zruyu3oaYa_NiS7R7edUXZsyfbQfrb_Hr0OwiPEDKortZ9rkilEdYGoc4tVRjNqbc2K9Wa0PHJob-xQS8EmMJOa25SR82x1KDlaOGCFPmloRAEMHQCb1r7bFhS1ZAnPvWjH70y0MNcU1YK4TVTHRxzUBdUwx7naouzTwblWjiqVIPBvdkFOlYW4aSogH-wPGHTglnrBtPS_ixeH5x1gZnBSUF9Mpv-wRRfHHD2wTsXsPdYUNUjmlMuLuera8uxK1qDn4nFiv6Buw_HRMi35CSc2Y74bbd598EEa7yia-h.&amp;_di_=2vgm4rmuma33lfcuf8mla9rigvt0356a1tis2un1n0k87phoe95g" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 137px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/26v2.png" alt="View Online" width="137" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYCBRY&amp;_ei_=EWcoImnNPTEuTEH1bun7SgwjGggwQUG1ZUAUdbC8eJiGKzdjQeyZ0YbuLoZRiEOiVPpzZmlyz6u7HuKuasMDYReU7OOBYgb3O3PlS5kZpw_LzrfX1JTmcWqaO2zno1e23oBC65GrBPopaV2vVYgBFWZu_OnMn9Ch5pOvioChSNwUPGxDgGf2J_XlBqKg8uESUCzGxuj3LOEN1wueMAxlSQw1gmFIS3K5MvyUgVJEj8CpCMIBtuuqREl9gZQHNn_WVqY9OojwxZqTfRCAzzIw-Rbf6cNadOvm6ic83p-DafQzzrz2hZbMSPyUhoC0y9Qr0knxvtsLICsy7pv91Z3PBfOORBG34T6dvk52gC0DQTN0EYru20Uu4HqDna6FeF8ItCDTmXvSbJ27G-DxvTgCKlQscaSY1i34zPyWZ5ylzeVVhCHTEX1L6UgYJ0vDNvFHImwEpWi7y5fY9nPhWEYk_CHB43xyz4FNqXh7X0h-aw9gYLcWjn6rv6o_Ih3_i0K-SvSAZjOo2cqCogMRqigvsY-NVKj4tWzRSbthfZcsp3L1WcEphcnID9kod71qRSSmWYplB-rTvab3vxHpA4k1zmD7PFwKLF3dqUdnYqvD6Kguhf_aF98aQggywHhPPxb7SOtz4D-zPIkGD4ZKPodCeAy7vgeSQ1zomaBTWlFXGkN1X84bQA2RDMYgecAqaFBZqdvmfL7x2o135PIUtRQcl7v1PfLQYYg4dHwRVPO9oyiHm6HnhUe-REM0cZtC_RQqrFmcbQy_MlOwucny7D1Yb0UrxVY1B8auI-na88iknOdM12GxQfCdzJSoCr_W5A9RDAB9nUt1rhHCjztrg80CcPKWF6uEfbdyQf1XEEmZEu8SwhxMdLspHnQHbSd6nwpJGyOhn1Rx07sqXnZ5P5sOJSjC_xxzN1oAZi9K9ypOzBaZemRq2P9mxYyz03ov56g6lv3XocYUaprS4cono8i19HCpVUnCmezkRSI3PwYVgJrnoA40hBX0MueWbagk5oFq082dFgpiq4Su1SBsjCcwXejzeJd_1YPv-yD6gAK-RxNX-Q8bwG76JeiaichRyUAIGARb5sq3j7iYESlbKAFCNDbFMmqV51Yc4yUvnyEa0MRewCnL-p9GliIk1PXyH_fk18452qjGSMeUv_RCsOwWLg4jHnvQd1SoC_I7BlygS1dD0_s92FT-g6vscYmGue0tuJOqJObt.&amp;_di_=kg7v1jmrgb7aj6kk0j525h5dkropd3439fmjvrt2ipu7khq7r1c0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 137px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/27v3.png" alt="Unsubscribe" width="137" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                            <td align="center" valign="top">
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDBCY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=rduj2pmnlsjc0t9c8g1uv6l1ugo72ju9g9icdeefa2m8ga2pbok0" style="text-decoration: none;" target="_blank" rel="noopener">
+                                                                                                                                    <img class="em_full_img" style="display: block; font-family: Arial, sans-serif; font-size: 11px; line-height: 10px; color: #999999; text-align: left; max-width: 137px;" src="https://images.emailaptitude.com/vitaminshoppe/template/footer_dm/28v2.png" alt="Privacy Policy" width="137" border="0">
+                                                                                                                                </a>
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td style="line-height: 0px; font-size: 0px; height: 20px;" height="20">&nbsp;</td>
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                            <td align="center">
+                                                                                                                <table style="width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0">
+                                                                                                                    <tbody>
+                                                                                                                        <tr>
+                                                                                                                            <td class="disclaimer" style="font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 11px; line-height: 15px; color: #ffffff;" align="left">* 
+                                                                                                                                <a href="https://e.vitaminshoppe.com/pub/cc?_ri_=X0Gzc2X%3DAQpglLjHJlYQG2CSr6GN4syTS00zarE24mFOMopGYcfKhynv49zalfvHWIt5nl6zavwzb7zahThTzftczbgwjDLVXtpKX%3DSRTAYDCRY&amp;_ei_=E-KkZFbadYVemIBp_2PI4tIbr4E5amLVjFzgzDRZ5uZd89178TA6S640ior3EyxfUOlS9M5fwNVxKu6BeP917LJx75aLniKzbGdjgm9mpmjkR3r7MtNpBJFf9DJ_S8go7SnL658Z1mv3FCcQG-U.&amp;_di_=fm8jic9sv11tlc5g0lgt00d2l01lnrigs04n280ban1tuea8hhc0" target="_blank" style="text-decoration: none; color: #ffffff;" rel="noopener">Click here for offer details.</a> 
+                                                                                                                                <br>
+                                                                                                                                <br>Healthy Awards ® ID#: 
+                                                                                                                                <span style="color: #ffffff;">809967726</span> 
+                                                                                                                                <br>
+                                                                                                                                <br>¹Pay $1 on select drink singles. Offer valid 11/25/2022 through 11/27/2022. Offer excludes the cost of shipping and tax. Not valid on prior purchases. In-store only. 6 drink single limit per customer. 
+                                                                                                                                <br>
+                                                                                                                                <br>SHIPPING 
+                                                                                                                                <br>Make any purchase of $25 or more (after discounts are applied, and excluding the cost of shipping and tax) to get free U.S. shipping excluding Alaska, Hawaii and Puerto Rico. Orders are shipped within 48 hours of placement—pending verification of billing information and shipping method selection—not including those placed on major U.S. holidays. 
+                                                                                                                                <br>
+                                                                                                                                <br>ADDRESS BOOK 
+                                                                                                                                <br>Don't miss out on any The Vitamin Shoppe® offers or announcements! Add 
+                                                                                                                                <a href="mailto:TheVitaminShoppe@e.vitaminshoppe.com" target="_blank" style="text-decoration: none; color: #ffffff;" rel="noopener">TheVitaminShoppe@e.vitaminshoppe.com</a> to your address book. 
+                                                                                                                                <br>
+                                                                                                                                <br>This email was sent by:&nbsp;The Vitamin Shoppe, 300 Harmon Meadow Blvd., Secaucus, NJ 07094
+                                                                                                                            </td>
+                                                                                                                        </tr>
+                                                                                                                        <tr>
+                                                                                                                            <td style="line-height: 0px; font-size: 0px; height: 40px;" height="40">&nbsp;</td>
+                                                                                                                        </tr>
+                                                                                                                    </tbody>
+                                                                                                                </table>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                            <td class="em_side" style="width: 25px;" width="25">&nbsp;</td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                <!--//FOOTER-->
+                                                                <div class="gmailfix" style="white-space: nowrap; font: 15px courier; line-height: 0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
